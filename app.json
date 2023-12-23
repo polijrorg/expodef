@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "my-app5",
+    "slug": "push-notification",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "owner": "researchpush",
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "mode": "production"
+        }
+      ]
+    ],
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "package": "com.research.push"
+    },
+    "ios": {
+      "bundleIdentifier": "com.research.push"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5cfd36ba-9afa-40c2-b889-ef86287d9406"
+      }
+    }
+  }
+}
